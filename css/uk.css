@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  position: relative;
+}
+
+.container .cross-mask1 {
+  position: absolute;
+  width: 15%;
+  height: 100%;
+  top: 0;
+  left: 42.5%;
+  background-color: red;
+}
+
+.container .cross-mask2 {
+  position: absolute;
+  height: 25%;
+  width: 100%;
+  top: 37.5%;
+  left: 0;
+  background-color: red;
+}
+
+.container .blue {
+  background-color: blue;
+  position: absolute;
+  width: 38%;
+  height: 30%;
+  overflow: hidden;
+}
+
+.container .blue:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+
+.container .blue:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+
+.container .blue:nth-child(3) {
+  bottom: 0;
+  left: 0;
+}
+
+.container .blue:nth-child(4) {
+  bottom: 0;
+  right: 0;
+}
+
+.container .blue .white-slash1 {
+  position: absolute;
+  top: 0;
+  right: 35%;
+  width: 45%;
+  height: 100%;
+  -webkit-transform: skewX(60deg);
+          transform: skewX(60deg);
+  background-color: white;
+}
+
+.container .blue .white-slash2 {
+  position: absolute;
+  top: 0;
+  right: 20%;
+  width: 45%;
+  height: 100%;
+  -webkit-transform: skewX(-60deg);
+          transform: skewX(-60deg);
+  background-color: white;
+}
+
+.container .blue .white-slash3 {
+  position: absolute;
+  top: 0;
+  right: 35%;
+  width: 45%;
+  height: 100%;
+  -webkit-transform: skewX(120deg);
+          transform: skewX(120deg);
+  background-color: white;
+}
+
+.container .blue .white-slash4 {
+  position: absolute;
+  top: 0;
+  right: 20%;
+  width: 45%;
+  height: 100%;
+  -webkit-transform: skewX(-120deg);
+          transform: skewX(-120deg);
+  background-color: white;
+}
+
+.container .blue .red-slash1 {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  height: 100%;
+  width: 18%;
+  -webkit-transform: skewX(60deg);
+          transform: skewX(60deg);
+  background-color: red;
+}
+
+.container .blue .red-slash2 {
+  position: absolute;
+  top: 0;
+  right: 40%;
+  height: 100%;
+  width: 18%;
+  -webkit-transform: skewX(-60deg);
+          transform: skewX(-60deg);
+  background-color: red;
+}
+
+.container .blue .red-slash3 {
+  position: absolute;
+  top: 0;
+  right: 40%;
+  height: 100%;
+  width: 18%;
+  -webkit-transform: skewX(120deg);
+          transform: skewX(120deg);
+  background-color: red;
+}
+
+.container .blue .red-slash4 {
+  position: absolute;
+  top: 0;
+  right: 25%;
+  height: 100%;
+  width: 18%;
+  -webkit-transform: skewX(-120deg);
+          transform: skewX(-120deg);
+  background-color: red;
+}
+/*# sourceMappingURL=uk.css.map */

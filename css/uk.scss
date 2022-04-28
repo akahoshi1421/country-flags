@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+
+    .cross-mask{
+
+        &1{
+            position: absolute;
+            width: 15%;
+            height: 100%;
+            top: 0;
+            left: 42.5%;
+            background-color: red;
+        }
+
+        &2{
+            position: absolute;
+            height: 25%;
+            width: 100%;
+            top: 37.5%;
+            left: 0;
+            background-color: red;
+        }
+    }
+
+    .blue{
+        background-color: blue;
+        position: absolute;
+        width: 38%;
+        height: 30%;
+        overflow: hidden;
+
+        &:nth-child(1){
+            top: 0;
+            left: 0;
+        }
+        &:nth-child(2){
+            top: 0;
+            right: 0;
+        }
+        &:nth-child(3){
+            bottom: 0;
+            left: 0;
+        }
+        &:nth-child(4){
+            bottom: 0;
+            right: 0;
+        }
+
+        .white-slash{
+            &1{
+                position: absolute;
+                top: 0;
+                right: 35%;
+                width: 45%;
+                height: 100%;
+                transform: skewX(60deg);
+                background-color: white;
+
+
+            }
+
+            &2{
+                position: absolute;
+                top: 0;
+                right: 20%;
+                width: 45%;
+                height: 100%;
+                transform: skewX(-60deg);
+                background-color: white;
+            }
+            &3{
+                position: absolute;
+                top: 0;
+                right: 35%;
+                width: 45%;
+                height: 100%;
+                transform: skewX(120deg);
+                background-color: white;
+            }
+            &4{
+                position: absolute;
+                top: 0;
+                right: 20%;
+                width: 45%;
+                height: 100%;
+                transform: skewX(-120deg);
+                background-color: white;
+            }
+
+        }
+
+        .red-slash{
+            &1{
+                position: absolute;
+                top: 0;
+                left: 25%;
+                height: 100%;
+                width: 18%;
+                transform: skewX(60deg);
+                background-color: red;
+            }
+
+            &2{
+                position: absolute;
+                top: 0;
+                right: 40%;
+                height: 100%;
+                width: 18%;
+                transform: skewX(-60deg);
+                background-color: red;
+            }
+
+            &3{
+                position: absolute;
+                top: 0;
+                right: 40%;
+                height: 100%;
+                width: 18%;
+                transform: skewX(120deg);
+                background-color: red;
+            }
+
+            &4{
+                position: absolute;
+                top: 0;
+                right: 25%;
+                height: 100%;
+                width: 18%;
+                transform: skewX(-120deg);
+                background-color: red;
+            }
+        }
+    }
+}
