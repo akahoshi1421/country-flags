@@ -25,13 +25,13 @@
   content: "";
   position: absolute;
   background: linear-gradient(73deg, #962727 50%, transparent 52%), linear-gradient(286deg, #962727 50%, transparent 52%);
-  background-size: 19px 66px;
+  background-size: 18.3px 65px;
   width: 100%;
   height: 34px;
   left: -55.5%;
   top: 15%;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg) translateX(-14.6px);
+          transform: rotate(-90deg) translateX(-14.6px);
 }
 
 .container .color::before {
@@ -53,35 +53,43 @@
   z-index: 3;
 }
 
-.container .color .line-mask:nth-child(8) {
-  top: 15px;
+.container .color .line-mask:nth-child(9) {
+  top: 17px;
 }
 
 .container .color .line-mask:nth-child(1) {
-  top: calc(15px + 19.1px * 1);
+  top: calc(17px + 18.42px * 1);
 }
 
 .container .color .line-mask:nth-child(2) {
-  top: calc(15px + 19.1px * 2);
+  top: calc(17px + 18.42px * 2);
 }
 
 .container .color .line-mask:nth-child(3) {
-  top: calc(15px + 19.1px * 3);
+  top: calc(17px + 18.42px * 3);
 }
 
 .container .color .line-mask:nth-child(4) {
-  top: calc(15px + 19.1px * 4);
+  top: calc(17px + 18.42px * 4);
 }
 
 .container .color .line-mask:nth-child(5) {
-  top: calc(15px + 19.1px * 5);
+  top: calc(17px + 18.42px * 5);
 }
 
 .container .color .line-mask:nth-child(6) {
-  top: calc(15px + 19.1px * 6);
+  top: calc(17px + 18.42px * 6);
 }
 
 .container .color .line-mask:nth-child(7) {
-  top: calc(15px + 19.1px * 7);
+  top: calc(17px + 18.42px * 7);
+}
+
+.container .color .line-mask:nth-child(8) {
+  top: calc(17px + 18.42px * 8);
+}
+
+.container .color .line-mask:nth-child(8) {
+  top: calc(17px + 18.33px * 8);
 }
 /*# sourceMappingURL=qatar.css.map */
