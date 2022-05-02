@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 420px;
+  height: 165px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.container .color {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 60%;
+  background-color: #962727;
+  overflow: visible;
+}
+
+.container .color::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(73deg, #962727 50%, transparent 52%), linear-gradient(286deg, #962727 50%, transparent 52%);
+  background-size: 19px 66px;
+  width: 100%;
+  height: 34px;
+  left: -55.5%;
+  top: 15%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.container .color::before {
+  content: "";
+  position: absolute;
+  width: 0.5px;
+  height: 100%;
+  left: -12.4%;
+  z-index: 2;
+  background-color: white;
+}
+
+.container .color .line-mask {
+  position: absolute;
+  left: -10.8%;
+  background-color: #962727;
+  height: 0.88px;
+  width: 50%;
+  z-index: 3;
+}
+
+.container .color .line-mask:nth-child(8) {
+  top: 15px;
+}
+
+.container .color .line-mask:nth-child(1) {
+  top: calc(15px + 19.1px * 1);
+}
+
+.container .color .line-mask:nth-child(2) {
+  top: calc(15px + 19.1px * 2);
+}
+
+.container .color .line-mask:nth-child(3) {
+  top: calc(15px + 19.1px * 3);
+}
+
+.container .color .line-mask:nth-child(4) {
+  top: calc(15px + 19.1px * 4);
+}
+
+.container .color .line-mask:nth-child(5) {
+  top: calc(15px + 19.1px * 5);
+}
+
+.container .color .line-mask:nth-child(6) {
+  top: calc(15px + 19.1px * 6);
+}
+
+.container .color .line-mask:nth-child(7) {
+  top: calc(15px + 19.1px * 7);
+}
+/*# sourceMappingURL=qatar.css.map */
